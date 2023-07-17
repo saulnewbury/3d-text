@@ -84,7 +84,7 @@ const fontLoader = new FontLoader()
 
 // Unlike texture loader we must use a callback once font has loaded
 fontLoader.load('/fonts/helvetiker_regular.typeface.json', (font) => {
-  const textGeometry = new TextGeometry('Saul Newbury', {
+  const textGeometry = new TextGeometry('Berisford', {
     font,
     size: 0.5,
     height: 0.3,
